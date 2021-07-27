@@ -64,6 +64,7 @@ input{
 }
 .input-date{
 	width: 100%;
+	--webkit--width: 100%;
 	display: block;
 	/* background-color: blueviolet; */
 	border-radius: 0;
