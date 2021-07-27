@@ -1,0 +1,141 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	padding-top: 5%;
+	margin: o;
+	font-family: sans-serif;
+	/* background: rgb(191, 241, 224); */
+	background: url(fondo.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	padding: 20px;
+	font-weight: 100;
+	font-size: 30px;
+	background: rgb(44, 44, 24);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.form{
+	width: 95%;
+	/* max-width: 500px; */
+	max-width: 750px;
+	margin: auto;
+	/* background: rgb(146, 180, 184); */
+	background: rgba(200, 213, 215, 0.49);
+	border-radius: 10px;
+	/* padding: 0px 20px 50px 20px; */
+	/* max-height: max-content; */
+}
+
+.contenedor{
+	padding-top: 10px 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 0 20px 50px 20px;
+}
+
+input{
+	margin-bottom: 15px;
+	padding: 15px;
+	font-size: 16px;
+	border-radius: 10px;
+	border: 1px solid gray;
+}
+
+.nomApe{
+	width: 48%;
+}
+
+.input{
+	width: 100%;
+}
+
+.submit{
+	background: rgb(50, 125, 221);
+	color: white;
+	margin: auto;
+	padding: 10px 40px;
+	cursor: pointer;
+}
+
+.submit:active{
+	transform: scale(1.05);
+}
+
+.pequenia{
+	font-size: 10px;
+	text-align: left;
+	margin-top: -14px;
+}
+
+.indicadores{
+	text-align: left;
+	color: rgb(0, 0, 0);
+	font-weight: bolder;	
+} 
+
+.inputCode{
+	background: rgb(165, 165, 201);
+	width: 100%;
+	border-radius: 10px 0 0 10px;
+}
+
+.validate{
+	background: rgb(84, 197, 61);
+	color: white;
+	/* margin: auto; */
+	padding: 10px 40px;
+	cursor: pointer;
+	border-radius: 0 10px 10px 0;
+}
+
+.validate:active{
+	transform: scale(1.05);
+}
+
+.validar-div{
+	display: flex;
+	width: 100%;
+}
+
+.info{
+	background: rosybrown;
+	width: 95%;
+	margin: auto;
+	max-width: 750px;
+}
+
+.info h2{
+	text-align: center;
+}
+
+
+/* .ok {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #1e6;
+	color: #fff
+} 
+
+.bad {
+	text-align: center;
+    width: calc(50%);
+    margin: 5%;
+    padding: 12px;
+    background-color: rgb(233, 57, 57);
+    color: rgb(0, 0, 0);
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 24%;
+}  */
+

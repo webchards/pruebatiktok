@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registro de Participantes</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+
+        <form method="post" class="form">
+            <h1>¡Registrate!</h1>
+            
+            <div class="contenedor">
+
+                <p class="indicadores">¿Cuál es tu fecha de nacimiento?</p>
+                
+                <input class="input" type="date" name="fecha"  max="2016-01-01" required>
+                <p class="pequenia">Tu fecha de naciento no se mostrará de manera pública.</p>
+                
+                <input class="input" type="number" name="ceula" placeholder="Nro de cédula" required  size="10" minlength="10" maxlength="10">
+                
+                <input class="nomApe" type="text" name="name" placeholder="Nombres" required minlength="3">
+                <input class="nomApe" type="text" name="apell" placeholder="Apellidos" required>
+                
+                <input class="input" type="text" name="link1" placeholder="Link del video de Baile">
+                <input class="input" type="text" name="link2" placeholder="Link del video de Actuación">
+                
+                <br>
+                <br>
+                <p class="indicadores">Telefono</p>
+                <input class="input" type="text" name="tel" placeholder="Telefono" required minlength="10" maxlength="10">
+                <!-- <input class="input" type="email" name="email" placeholder="Email"> -->
+                <div class="validar-div">
+                    <input class="inputCode" type="text" name="code" placeholder="Ingrese código" required>
+                    <input class="validate" type="submit" name="validar" value="validar codigo">  
+                </div>
+                
+                <input class="submit" type="submit" name="registro" value="REGISTRAR">            
+            </div>
+            
+        </form>
+
+        <!-- <div class="info">
+            <h2>Mas informacion</h2>
+
+        </div>
+         -->
+        <!-- <?php 
+            include("registrar.php");
+        ?> -->
+
+</body>
+</html>
