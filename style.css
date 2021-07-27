@@ -128,7 +128,7 @@ input{
 	display: inline-block;
 	width: 30%; */
 
-	background: rgb(61, 176, 221);
+	/* background: rgb(221, 61, 69); */
 	width: 31%;
 	cursor: pointer;
 	/*border-radius: 0;
@@ -138,8 +138,9 @@ input{
 	border-radius: 0px;
 	-webkit-border-radius: 0px;
 	-ms-border-radius: 0px;
-	-o-border-radius: 5px;
+	-o-border-radius: 0px;
 	-moz-border-radius: 0px;
+	--webkit--background:rgb(221, 61, 69);
 }
 
 .validate:active{
