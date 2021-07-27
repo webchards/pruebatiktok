@@ -51,7 +51,7 @@ input{
 	border-radius: 0px;
 	border: 1px solid gray;
 	width: 100%;
-	background: violet;
+	/* background: violet; */
 }
 
 .nomApe{
@@ -134,11 +134,11 @@ input{
 	display: inline-block;*/
 	margin-left: -8px;
 	/* border: 0px; */
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-ms-border-radius: 5px;
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-ms-border-radius: 0px;
 	-o-border-radius: 5px;
-	-moz-border-radius: 5px;
+	-moz-border-radius: 0px;
 }
 
 .validate:active{
@@ -148,7 +148,7 @@ input{
 .validar-div{
 	/* display: flex; */
 	width: 100%;
-	background: yellow;
+	/* background: yellow; */
 }
 
 .validar-div > div{
