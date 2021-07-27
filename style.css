@@ -46,11 +46,17 @@ h1{
 
 input{
 	margin-bottom: 15px;
+	--webkit--botton:15px;
 	padding: 15px;
+	--webkit--padding:15px;
 	font-size: 16px;
+	--webkit--font-size:16px;
 	border-radius: 0px;
+	--webkit--border-radius:0px;
 	border: 1px solid gray;
+	--webkit--border:1px solid gray;
 	width: 100%;
+	--webkit--width:100%;
 	/* background: violet; */
 }
 
@@ -125,6 +131,7 @@ input{
 	-o-border-radius: 0px;
 	-moz-border-radius: 0px;
 	-webkit-background: rgb(221, 61, 69);
+	--o--background: rgb(221, 61, 69);
 }
 
 .validate:active{
