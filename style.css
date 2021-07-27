@@ -1,6 +1,5 @@
 *{
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body{
@@ -8,9 +7,9 @@ body{
 	margin: 0;
 	font-family: sans-serif;
 	/* background: rgb(191, 241, 224); */
-	background: url(fondo.jpg);
+	/* background: url(fondo.jpg);
 	background-size: cover;
-	background-attachment: fixed;
+	background-attachment: fixed; */
 }
 
 h1{
@@ -38,14 +37,9 @@ h1{
 
 .contenedor{
 	padding-top: 10px 30px;
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-ms-flex-wrap: wrap;
-	    flex-wrap: wrap;
-	-webkit-box-pack: justify;
-	    -ms-flex-pack: justify;
-	        justify-content: space-between;
+	flex-wrap: wrap;
+	justify-content: space-between;
 	padding: 0 20px 50px 20px;
 	/* background: rebeccapurple; */
 }
@@ -68,21 +62,24 @@ input{
 
 .nomApe{
 	width: 48%;
+	--webkit--width: 48%;
 }
 
 .input{
 	width: 100%;
+	--webkit--width: 100%;
 	display: block;
+	--webkit--display: block;
 }
 .input-date{
 	width: 100%;
 	--webkit--width: 100%;
 	display: block;
+	--webkir--display: block;
 	/* background-color: blueviolet; */
 	border-radius: 0;
 }
-.submit{
-	/* background: rgb(50, 125, 221); */
+/* .submit{
 	background: rgb(135, 42, 227);
 	color: white;
 	margin: auto;
@@ -92,10 +89,8 @@ input{
 }
 
 .submit:active{
-	-webkit-transform: scale(1.05);
-	    -ms-transform: scale(1.05);
-	        transform: scale(1.05);
-}
+	transform: scale(1.05);
+} */
 
 .pequenia{
 	font-size: 10px;
@@ -115,36 +110,24 @@ input{
 } 
 
 .inputCode{
-	/* background: rgb(165, 165, 201);
-	width: 100%;
-	border-radius: 10px 0 0 10px; */
-
- 	/* background: rgb(37, 204, 201); */
 	 width: 69%;
-	/*border-radius: 10px 0 0 10px;
-	display: inline-block; */
 }
 
 .validate{
 	background: rgb(221, 61, 69);
 	width: 31%;
+	--webkit--width: 31%;
 	cursor: pointer;
-	/*border-radius: 0;
-	display: inline-block;*/
+	--webkit--cursor: pointer;
 	margin-left: -8px;
-	/* border: 0px; */
+	--webkit--margin-left: -8px;
 	border-radius: 0px;
-	-webkit-border-radius: 0px;
-	-ms-border-radius: 0px;
-	-o-border-radius: 0px;
-	-moz-border-radius: 0px;
 	-webkit-background: rgb(221, 61, 69);
 	--o--background: rgb(221, 61, 69);
 }
 
 .validate:active{
-	-ms-transform: scale(1.05);
-	    transform: scale(1.05);
+	transform: scale(1.05);
 	-webkit-transform: scale(1.05);
 }
 
@@ -152,13 +135,6 @@ input{
 	/* display: flex; */
 	width: 100%;
 	/* background: yellow; */
-}
-
-.validar-div > div{
-	/* display: flex; */
-	width: 100%;
-	/* background: rgb(223, 0, 167); */
-	display: inline;
 }
 
 
