@@ -6,7 +6,7 @@ body{
 	padding-top: 5%;
 	margin: o;
 	font-family: sans-serif;
-	/* background: rgb(191, 241, 224); */
+	/* background: rgb(191, 241, 224); */ 
 	background: url(fondo.jpg);
 	background-size: cover;
 	background-attachment: fixed;
@@ -17,7 +17,7 @@ h1{
 	text-align: center;
 	padding: 20px;
 	font-weight: 100;
-	font-size: 30px;
+	font-size: 45px;
 	background: rgb(44, 44, 24);
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
@@ -44,11 +44,21 @@ h1{
 }
 
 input{
-	margin-bottom: 15px;
+	
+/* margin-bottom: 15px;
 	padding: 15px;
 	font-size: 16px;
 	border-radius: 10px;
+	border: 1px solid gray; */
+	margin-bottom: 50px;
+	padding: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 39px;
+	border-radius: 10px;
 	border: 1px solid gray;
+	padding-top: 20px;
+	padding-bottom: 20px
 }
 
 .nomApe{
@@ -72,15 +82,16 @@ input{
 }
 
 .pequenia{
-	font-size: 10px;
+	font-size: 17px;
 	text-align: left;
-	margin-top: -14px;
+	margin-top: -47px;
 }
 
 .indicadores{
 	text-align: left;
 	color: rgb(0, 0, 0);
 	font-weight: bolder;	
+	font-size: 28px;
 } 
 
 .inputCode{
