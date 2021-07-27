@@ -75,12 +75,16 @@ input{
 	font-size: 10px;
 	text-align: left;
 	margin-top: -14px;
+	/* background-color: yellow; */
+	width: 100%;
 }
 
 .indicadores{
+	/* background-color: rgb(243, 232, 71); */
 	text-align: left;
 	color: rgb(0, 0, 0);
 	font-weight: bolder;	
+	width: 100%;
 } 
 
 .inputCode{
