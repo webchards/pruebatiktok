@@ -57,6 +57,7 @@ input{
 
 .input{
 	width: 100%;
+	display: block;
 }
 
 .submit{
@@ -75,8 +76,9 @@ input{
 	font-size: 10px;
 	text-align: left;
 	margin-top: -14px;
-	/* background-color: yellow; */
+	background-color: yellow;
 	width: 100%;
+	display: block;
 }
 
 .indicadores{
