@@ -112,23 +112,7 @@ input{
 }
 
 .validate{
-	/* background: rgb(84, 197, 61);
-	color: white; */
-	/* margin: auto; */
-	/* padding: 10px 40px;
-	cursor: pointer;
-	border-radius: 0 10px 10px 0; */
-
-	/* background: rgb(84, 197, 61);
-	color: white;
-	margin: auto;
-	padding: 10px 40px;
-	cursor: pointer;
-	border-radius: 0px 10px 10px 0;
-	display: inline-block;
-	width: 30%; */
-
-	/* background: rgb(221, 61, 69); */
+	background: rgb(221, 61, 69);
 	width: 31%;
 	cursor: pointer;
 	/*border-radius: 0;
@@ -140,11 +124,12 @@ input{
 	-ms-border-radius: 0px;
 	-o-border-radius: 0px;
 	-moz-border-radius: 0px;
-	--webkit--background:rgb(221, 61, 69);
+	-webkit-background: rgb(221, 61, 69);
 }
 
 .validate:active{
 	transform: scale(1.05);
+	-webkit-transform: scale(1.05);
 }
 
 .validar-div{
