@@ -79,7 +79,7 @@ input{
 	/* background-color: blueviolet; */
 	border-radius: 0;
 }
-/* .submit{
+.submit{
 	background: rgb(135, 42, 227);
 	color: white;
 	margin: auto;
@@ -90,7 +90,7 @@ input{
 
 .submit:active{
 	transform: scale(1.05);
-} */
+}
 
 .pequenia{
 	font-size: 10px;
