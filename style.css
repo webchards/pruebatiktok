@@ -95,18 +95,39 @@ input{
 } 
 
 .inputCode{
-	background: rgb(165, 165, 201);
+	/* background: rgb(165, 165, 201);
 	width: 100%;
+	border-radius: 10px 0 0 10px; */
+
+	background: rgb(165, 165, 201);
+	width: 70%;
 	border-radius: 10px 0 0 10px;
+	display: inline-block;
 }
 
 .validate{
-	background: rgb(84, 197, 61);
-	color: white;
+	/* background: rgb(84, 197, 61);
+	color: white; */
 	/* margin: auto; */
+	/* padding: 10px 40px;
+	cursor: pointer;
+	border-radius: 0 10px 10px 0; */
+
+	/* background: rgb(84, 197, 61);
+	color: white;
+	margin: auto;
 	padding: 10px 40px;
 	cursor: pointer;
-	border-radius: 0 10px 10px 0;
+	border-radius: 0px 10px 10px 0;
+	display: inline-block;
+	width: 30%; */
+
+	background: rgb(84, 197, 61);
+	cursor: pointer;
+	border-radius: 0px 10px 10px 0;
+	display: inline-block;
+	width: 32%;
+	margin-left: -2%;
 }
 
 .validate:active{
@@ -116,6 +137,7 @@ input{
 .validar-div{
 	display: flex;
 	width: 100%;
+	background: yellow;
 }
 
 .info{
