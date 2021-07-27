@@ -1,10 +1,11 @@
 *{
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 }
 
 body{
 	padding-top: 5%;
-	margin: o;
+	margin: 0;
 	font-family: sans-serif;
 	/* background: rgb(191, 241, 224); */
 	background: url(fondo.jpg);
@@ -37,9 +38,14 @@ h1{
 
 .contenedor{
 	padding-top: 10px 30px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	padding: 0 20px 50px 20px;
 	/* background: rebeccapurple; */
 }
@@ -86,7 +92,9 @@ input{
 }
 
 .submit:active{
-	transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	    -ms-transform: scale(1.05);
+	        transform: scale(1.05);
 }
 
 .pequenia{
@@ -135,7 +143,8 @@ input{
 }
 
 .validate:active{
-	transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	    transform: scale(1.05);
 	-webkit-transform: scale(1.05);
 }
 
