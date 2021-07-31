@@ -7,7 +7,7 @@ body{
 	margin: 0;
 	font-family: sans-serif;
 	background: rgb(191, 241, 224);
-	background: url(fondo.jpg);
+	background: url(https://image.freepik.com/vector-gratis/fondo-geometrico-plano_23-2148967370.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -29,7 +29,7 @@ h1{
 	/* max-width: 750px; */
 	margin: auto;
 	/* background: rgb(146, 180, 184); */
-	background: rgba(200, 213, 215, 0.49);
+	background: rgba(200, 213, 215, 0.596);
 	border-radius: 10px;
 	/* padding: 0px 20px 50px 20px; */
 	/* max-height: max-content; */
@@ -85,9 +85,9 @@ input{
 }
 .submit{
 	background: rgb(135, 42, 227);
-	-webkit-backgroud:rgb(135, 42, 227);
+	/* -webkit-backgroud:rgb(135, 42, 227); */
 
-	color: white;
+	/* color: black; */
 	margin: auto;
 	padding: 20px 50px;
 	-webkit-padding:10px 40px;
@@ -167,14 +167,19 @@ input{
 }
 
 
-/* .ok {
+ .ok {
 	text-align: center;
-	width: 100%;
-	padding: 12px;
-	background-color: #1e6;
-	color: #fff
-} 
+	width: calc(50%);
+	margin: 5%;
+	padding: 20px;
+	background-color: rgba(92, 185, 128, 0.678);
+	color: rgb(34, 28, 28);
 
+	padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 24%;
+} 
+/*
 .bad {
 	text-align: center;
     width: calc(50%);
@@ -187,3 +192,75 @@ input{
     margin-left: 24%;
 }  */
 
+.contenedor-footer{
+	background-color: rgba(109, 178, 196, 0.446);
+}
+
+img{
+	width: 30px;
+	height: 30px;
+}
+
+.contenedor-footer{
+	display: flex;
+	height: 20vh;
+	align-items: center;
+	justify-content: center;
+}
+
+.contenedor-footer ul li{
+	list-style-type: none;
+	display: inline-block;
+	/* margin: 0px; */
+	/* width: 50px; */
+	/* height: 50px; */
+	text-align: center;
+}
+
+.contenedor-footer ul li a{
+	display: block;
+	padding: 10px;
+	margin: 10px;
+	/* background: rgba(230, 172, 172, 0.152); */
+	/* color: #fff; */
+	/* line-height: 50px; */
+	/* font-size: 20px; */
+	transition: .2s;
+}
+
+.contenedor-footer ul:hover a{
+	filter: blur(2px);
+}
+
+.contenedor-footer ul li a:hover{
+	transform: translateY(-3px) scale(1.05);
+	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .4);
+	filter: none;
+}
+
+/* .contenedor-footer ul li .instagram:hover{
+	background: rgba(202, 166, 129, 0.302);
+} */
+
+.foot{
+	background: rgb(24, 24, 24);
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.copyright{
+	color: white;
+	font-weight: bolder;
+}
+
+.informacion{ 
+	color: white;
+	font-weight: bolder;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	/* font-weight: bolder; */
+}

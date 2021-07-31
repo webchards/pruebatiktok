@@ -3,54 +3,97 @@
     <head>
         <title>Registro de Participantes</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
 
     <body>
-
-        <form action="" method="post" class="form">
+        
+        <form action="index.php" method="post" class="form">
             <h1>¡Registrate!</h1>
             
             <div class="contenedor">
  
                 <p class="indicadores">¿Cuál es tu fecha de nacimiento?</p>
                 
-                <input class="input-date" type="date" name="fecha"  max="2016-01-01" required>
+                <input class="input-date" type="date" name="fecha_nac"  max="2016-01-01" required >
                 <!-- <p class="pequenia">Tu fecha de naciento no se mostrará de manera pública.</p> -->
                 
-                <input class="input" type="tex" name="ceula" placeholder="Nro de cédula" size="10" minlength="10" maxlength="10" required >
+                <input class="input" type="tex" name="cedula" placeholder="Nro de cédula" size="10" minlength="10" maxlength="10">
                 
-                <input class="nomApe" type="text" name="name" placeholder="Nombres" required minlength="3">
-                <input class="nomApe" type="text" name="apell" placeholder="Apellidos" required>
+                <input class="nomApe" type="text" name="nombre" placeholder="Nombres"  minlength="3" required>
+                <input class="nomApe" type="text" name="apellido" placeholder="Apellidos" required>
                 
                 <input class="input" type="text" name="link1" placeholder="Link del video de Baile" required>
                 <input class="input" type="text" name="link2" placeholder="Link del video de Actuación" required>
                 
                 
                 <!-- <p class="indicadores">Telefono</p> -->
-                <input class="input" type="number" name="tel" placeholder="Telefono" required pattern="[0-9]{10}">
+                <input class="input" type="number" name="telefono" placeholder="Telefono"  pattern="[0-9]{10}" required>
                 
                 <div class="validar-div">
                     
-                    <input class="inputCode" type="text" id="code" name="code" placeholder="Ingrese código" required>                    
-                    <input class="validate" type="button" id="button" name="validar" value="validar codigo" disabled required>  
+                    <input class="input" type="text" id="code" name="code" placeholder="Ingrese código" required>                    
+                    <!-- <input class="validate" type="submit" id="button" name="validar" value="validar codigo" disabled>   -->
                    
                 </div>
                 
-                <input class="submit" type="submit" name="registro" value="REGISTRAR">            
+                <input class="submit" type="submit" id=registro name="registro" value="REGISTRAR" disabled>            
             </div>
             
         </form>
 
-        <script src="validaciones.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
-        <!-- <script src="alertas.js"></script> -->
+        <script src="js/validaciones.js"></script>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>  -->
+        <!-- <script src="js/alertas.js"></script> -->
 
-        <!-- <div class="info">
+        <div class="info">
             <h2>Mas informacion</h2>
 
         </div>
-         -->
+        
+        <footer>
+            <div class="contenedor-footer">
+                <ul>
+                    <li>
+                        <a href="https://www.instagram.com/digud.ec/?hl=es" class="instagram" target="_blank">
+                            <img src="img/instagram.png" alt="Instagram">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://vm.tiktok.com/ZMdcgPRqR/" class="tiktok" target="_blank">
+                            <img src="img/tiktok.png" alt="Tiktok">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.facebook.com/Digud.ec" class="facebook" target="_blank">
+                            <img src="img/facebook.png" alt="Facebook">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://api.whatsapp.com/send/?phone=593978680808&text&app_absent=0" class="wharsapp" target="_blank">
+                            <img src="img/whatsapp.png" alt="whatsApp">
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- <div class="contenedor-redes"></div> -->
+            </div>
+            
+            <div class="foot"> 
+                <div class="copyright">
+                    © 2021 Todos los derechos Reservados | <a href="https://www.digudec.com/" target="_blank">Digud.ec</a>
+                </div>
+                
+                <div class="informacion">
+                    <a href="https://linktr.ee/digudec" target="_blank">LinkTree</a> |
+                    <a href="https://www.digudec.com/pol%C3%ADticas-de-la-tienda" target="_blank">Politicas</a>
+                </div> 
+            </div>
+        </footer>
+
         <!-- <?php 
             include("registrar.php");
         ?> -->
