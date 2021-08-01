@@ -211,7 +211,7 @@ img{
 
 .contenedor-footer{
 	display: flex;
-	height: 20vh;
+	height: 10vh;
 	align-items: center;
 	justify-content: center;
 }
