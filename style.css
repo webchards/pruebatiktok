@@ -156,13 +156,10 @@ input{
 
 
 .info{
-	display: block;
-	background: rgba(129, 141, 201, 0.407);
-	/* width: 100%; */
+	background: rgba(85, 0, 255, 0.687);
+	width: 95%;
 	margin: auto;
-	margin: 10px;
-	padding: 50px;
-	/* max-width: 750px; */
+	max-width: 750px;
 }
 
 .info h2{
@@ -196,17 +193,12 @@ input{
 }  */
 
 .contenedor-footer{
-	display: block;
 	background-color: rgba(109, 178, 196, 0.446);
-	/* width: 98%; */
-	margin: auto;
-	margin: 10px;
-	text-align: center;
 }
 
 img{
-	width: 50px;
-	height: 50px;
+	width: 30px;
+	height: 30px;
 }
 
 .contenedor-footer{
