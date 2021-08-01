@@ -6,8 +6,8 @@ body{
 	padding-top: 5%;
 	margin: 0;
 	font-family: sans-serif;
-	background: rgb(191, 241, 224);
-	background: url(https://image.freepik.com/vector-gratis/fondo-geometrico-plano_23-2148967370.jpg);
+	/* background: rgb(191, 241, 224); */
+	/* background: url(https://image.freepik.com/vector-gratis/fondo-geometrico-plano_23-2148967370.jpg); */
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -29,7 +29,8 @@ h1{
 	/* max-width: 750px; */
 	margin: auto;
 	/* background: rgb(146, 180, 184); */
-	background: rgba(200, 213, 215, 0.596);
+	/* background: rgba(200, 213, 215, 0.596); */
+	background: #C78CDA;
 	border-radius: 10px;
 	/* padding: 0px 20px 50px 20px; */
 	/* max-height: max-content; */
@@ -84,7 +85,8 @@ input{
 	/* border-radius: 10px; */
 }
 .submit{
-	background: rgb(135, 42, 227);
+	/* background: rgb(135, 42, 227); */
+	background: #FA32A3;
 	/* -webkit-backgroud:rgb(135, 42, 227); */
 
 	/* color: black; */
@@ -197,7 +199,7 @@ input{
 
 .contenedor-footer{
 	display: block;
-	background-color: rgba(109, 178, 196, 0.446);
+	/* background-color: rgba(109, 178, 196, 0.446); */
 	/* width: 98%; */
 	margin: auto;
 	margin: 10px;
