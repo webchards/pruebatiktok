@@ -10,6 +10,7 @@ body{
 	/* background: url(https://image.freepik.com/vector-gratis/fondo-geometrico-plano_23-2148967370.jpg); */
 	background-size: cover;
 	background-attachment: fixed;
+	min-height: calc(100vh - (74px + 180.367px));
 }
 
 h1{
