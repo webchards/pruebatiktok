@@ -204,7 +204,7 @@ input{
 	margin: auto;
 	margin: 10px;
 	text-align: center;
-	padding-top: 10%;
+	padding-top: 1%;
 	/* padding-bottom: 4%; */
 }
 
@@ -214,10 +214,11 @@ img{
 }
 
 .contenedor-footer{
-	display: flex;
-	height: 10vh;
+	/* display: flex; */
+	/* height: 10vh; */
 	align-items: center;
 	justify-content: center;
+	display: block;
 }
 
 .contenedor-footer ul li{
@@ -231,7 +232,7 @@ img{
 
 .contenedor-footer ul li a{
 	display: block;
-	padding: 10px;
+	padding: 5px;
 	margin: 10px;
 	/* background: rgba(230, 172, 172, 0.152); */
 	/* color: #fff; */
@@ -255,6 +256,7 @@ img{
 } */
 
 .foot{
+	display: block;
 	background: rgb(24, 24, 24);
 	display: flex;
 	justify-content: space-between;
